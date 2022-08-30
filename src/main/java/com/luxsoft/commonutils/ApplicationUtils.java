@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class ApplicationUtils extends RestUtils {
-	private final String ORDER_ENDPOINT_PATH = ApplicationConstants.properties.getProperty("orderendpoint");
+	private final String ORDER_ENDPOINT_PATH = ApplicationConstants.ORDER_END_POINT;
 
 	public String getPath() {
 		return ORDER_ENDPOINT_PATH;
