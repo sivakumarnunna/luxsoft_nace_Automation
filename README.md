@@ -3,8 +3,8 @@
 Pre reqs: Install Java and Maven.<br />
 
 In the file /luxsoft/applicationUnderTest.properties provide  application properties details.<br />
-baseURL=
-orderendpoint=
-userrname=
-password=
+baseURL=<br />
+orderendpoint=<br />
+userrname=<br />
+password=<br />
 
