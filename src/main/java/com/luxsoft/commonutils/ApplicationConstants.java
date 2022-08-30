@@ -24,6 +24,8 @@ public static final int PUT_REQUEST = 3;
     public static String PASSWORD;
 	public static String SOT_PATH;
 	public static String authToken;
+      public static String ORDER_END_POINT;
+
 
 	
 	static {
@@ -36,6 +38,8 @@ public static final int PUT_REQUEST = 3;
 			USER_NAME =  properties.getProperty("username");
 			PASSWORD =   properties.getProperty("password");
 			SOT_PATH   =  properties.getProperty("sotpath");
+		       ORDER_END_POINT   =  properties.getProperty("orderendpoint");
+
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
